@@ -1,0 +1,54 @@
+/*
+Breakpoints: 
+320px - 375px; GREEN **** CAMBIÉ rango de color verde porque o era visible***
+376px - 667px; YELLOW
+667px - 1024px; RED
+1024px - 1600px; BLUE
+*/
+
+.caja {
+	text-align: center;
+}
+
+.caja img {
+	max-width: 200px;
+	width: 100%;
+}
+
+/*
+320px - 375px; GREEN
+CAMBIÉ este rango porque no era visible, con estas medidas puedo ver el cambio de color*/
+@media (min-width: 320px) and (max-width: 475px){
+	body {
+		background-color: #00E400;
+	}
+}
+
+
+/*
+376px - 667px; YELLOW
+*/
+@media (min-width: 476px) and (max-width: 667px){
+	body {
+		background-color: #FFFF00;
+	}
+}
+
+/*
+667px - 1024px; RED
+*/
+@media (min-width: 667px) and (max-width: 1024px){
+	body {
+		background-color: #FF0000;
+	}
+}
+
+
+/*
+1024px - 1600px; BLUE
+*/
+@media (min-width: 1024px) and (max-width: 1600px){
+	body {
+		background-color: #0000FF;
+	}
+}
